@@ -21,4 +21,4 @@ def dummy():
 @app.route("/placeholder")
 def placeholder():
     print("Placeholder endpoint called!")
-    return "<<<py-place-holder>>>"
+    return "81506189-4101-4dac-8c79-45664f65bf31"
