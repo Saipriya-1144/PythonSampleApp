@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     print("Hello endpoint called!")
-    return "Hello from Python App"
+    return "Hello Hii from Python App"
 
 @app.route("/dummy")
 def dummy():
