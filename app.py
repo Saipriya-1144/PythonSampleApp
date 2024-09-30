@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     print("Hello endpoint called!")
-    return "Hello Hii from Python App"
+    return "Hello from Python App"
 
 @app.route("/dummy")
 def dummy():
@@ -21,4 +21,4 @@ def dummy():
 @app.route("/placeholder")
 def placeholder():
     print("Placeholder endpoint called!")
-    return "f3196ef2-2f0b-4a18-a153-819f2a8772e2"
+    return "<<<py-place-holder>>>"
